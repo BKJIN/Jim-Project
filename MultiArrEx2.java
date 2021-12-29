@@ -39,7 +39,7 @@ public class MultiArrEx2 {
 			}
 			System.out.println();
 			
-			System.out.printf("1~%d의 숫자를 입려가세요.(종료:0)>",SIZE*SIZE);
+			System.out.printf("1~%d의 숫자를 입력하세요.(종료:0)>",SIZE*SIZE);
 			String tmp = scanner.nextLine();
 			num = Integer.parseInt(tmp);
 			//num = scanner.nextInt();
